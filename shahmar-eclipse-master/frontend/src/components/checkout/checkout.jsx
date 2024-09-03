@@ -1,4 +1,3 @@
-import { log } from 'har-validator';
 import { useEffect, useState } from 'react';
 import { useSelector } from "react-redux";
 import { ToastContainer, toast } from 'react-toastify';
