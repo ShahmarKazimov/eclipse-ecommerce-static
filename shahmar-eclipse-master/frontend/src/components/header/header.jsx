@@ -169,13 +169,13 @@ const Header = () => {
                       <summary className="cursor-pointer w-max py-2">
                         <span className="hover:text-[#C4932C] duration-300 font-semibold">Buy a Watch</span>
                       </summary>
-                      <div className="border pl-[14px] rounded-lg py-2 bg-white absolute text-left space-y-1 w-[81%] pb-3 h-[164px]">
+                      <div className="border pl-[14px] rounded-b-lg rounded-s-lg py-2 bg-white z-10 absolute text-left space-y-1 w-[81%] pb-3 h-[164px]">
                         <ul className="flex flex-col ml-2 font-semibold space-y-1">
-                          <li className="hover:text-[#C4932C] duration-300"><Link to="/rolex">Rolex</Link></li>
-                          <li className="hover:text-[#C4932C] duration-300"><Link to="/cartier">Cartier</Link></li>
-                          <li className="hover:text-[#C4932C] duration-300"><Link to="/hamilton">Hamilton</Link></li>
-                          <li className="hover:text-[#C4932C] duration-300"><Link to="/hublot">Hublot</Link></li>
-                          <li className="hover:text-[#C4932C] duration-300"><Link to="/ulysseNardin">Ulysse Nardin</Link></li>
+                          <li className="hover:text-[#C4932C] duration-300"><a href="/rolex">Rolex</a></li>
+                          <li className="hover:text-[#C4932C] duration-300"><a href="/cartier">Cartier</a></li>
+                          <li className="hover:text-[#C4932C] duration-300"><a href="/hamilton">Hamilton</a></li>
+                          <li className="hover:text-[#C4932C] duration-300"><a href="/hublot">Hublot</a></li>
+                          <li className="hover:text-[#C4932C] duration-300"><a href="/ulysseNardin">Ulysse Nardin</a></li>
                         </ul>
                       </div>
                     </details>
